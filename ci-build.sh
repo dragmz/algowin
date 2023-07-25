@@ -12,7 +12,7 @@ git submodule init
 git submodule update
 cd go-algorand
 ./scripts/configure_dev.sh
-make
+make install
 
 cp ~/go/bin/algod.exe ../algod.exe
 cp ~/go/bin/diagcfg.exe ../diagcfg.exe
