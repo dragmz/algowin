@@ -18,5 +18,6 @@ cp ~/go/bin/algod.exe ../algod.exe
 cp ~/go/bin/diagcfg.exe ../diagcfg.exe
 cp ~/go/bin/goal.exe ../goal.exe
 cp ~/go/bin/kmd.exe ../kmd.exe
+cp ~/go/bin/algokey.exe ../algokey.exe
 
 ls -la
