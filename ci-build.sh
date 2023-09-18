@@ -10,6 +10,9 @@ export GOROOT=$(pwd)/go
 go version
 git submodule init
 git submodule update
+
+git apply windows-gc-fix.patch
+
 cd go-algorand
 ./scripts/configure_dev.sh
 make install
